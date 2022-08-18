@@ -1,3 +1,43 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+
+
+
+/* Typography */
+
+
+
+.bold {
+    font-weight: 600;
+}
+
+
+/* Images */
+
+.logo {
+    width: 125px
+}
+
+.avatar {
+    height: 34px;
+    width: 34px;
+    border-radius: 50px;
+}
+
+.post {
+    width: 375px;
+    height: 375px;;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
 }
