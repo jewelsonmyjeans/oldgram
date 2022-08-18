@@ -6,7 +6,7 @@ body {
 .container {
     width: 375px;
     margin: 0 auto;
-    border: red 2px solid;
+    box-shadow: 0 0 5px #000;
 }
 
 
@@ -25,6 +25,7 @@ header {
 
 h3, p {
     font-size: 13px;
+    margin: 0;
 }
 
 h3 p {
@@ -39,6 +40,22 @@ h3 p {
     margin: 5px;
 }
 
+.bottom-of-post p {
+    margin: 15px 0;
+    padding-bottom: 15px;
+}
+
+.user-info {
+    display: flex;
+    justify-content: start;  
+    margin: 10px;
+}
+
+.user-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+}
 
 /* Images */
 
@@ -67,4 +84,5 @@ h3 p {
 .icon-wrapper {
     display: flex;
     justify-content: flex-start;
+    margin-top: 15px;
 }
