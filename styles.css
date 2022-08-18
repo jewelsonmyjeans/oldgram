@@ -81,6 +81,10 @@ h3 p {
     margin-right: 15px;
 }
 
+.icon:hover {
+    opacity: 0.2;
+}
+
 .icon-wrapper {
     display: flex;
     justify-content: flex-start;
